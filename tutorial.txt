@@ -11,10 +11,14 @@ GIT e GITHUB#
 Comandos básicos do git:
 git config --global user.name "Seu nome"
 git config --global user.email "seuemail@email.com"
-git push (envia ao repositorio github)
-git add . (adiciona ao repositório local)
+
 git commit  -m "tutorial" (documentar as alterações)
+git add . (adiciona ao repositório local)
+git push (envia ao repositorio github)
+
 git clone url_do_repositório (clonar um repositório)
+
+
 Gerar token GitHub
 1) Settings
 2) Developer Settings
