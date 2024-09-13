@@ -1,0 +1,19 @@
+{
+  "name": "javascript1",
+  "version": "1.0.0",
+  "description": "Tutorial de lógica de programação com JavaScript",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camis8/javascript1.git"
+  },
+  "author": "Camila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camis8/javascript1/issues"
+  },
+  "homepage": "https://github.com/camis8/javascript1#readme"
+}
