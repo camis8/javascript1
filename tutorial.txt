@@ -40,6 +40,23 @@ descrição da classe / função
 @version 1.0
 */
 
+2) nomes de arquivos, variaveis, funções , classes, etc
+Regras (clean code)
+- Declarar nomes que tenham relação com o problema
+- Não usar espaço, "Ç", acentos e caracteres especiais para declaração de nomes (erros internos no programa)
+- Só classes iniciam com letra maiuscula 
+- Não iniciar um nome com número
+- Quando for declarar dois nomes para uma variavel usar a técnica do camelo (camel case)
+Exemplo:
+nomecliente -> nomeCliente
+_______________________________________________________
+Comandos básicos do MS-DOS 
+cls -> limpar a tela
+dir -> listar arquivos e diretorios
+cd nome_diretorio -> entrar no diretorio
+cd .. -> voltar para o diretorio anterior
+
+
 _______________________________________________________
 Node - Plataforma que permite a execução de Javascript 
 fora do navegador (browser)
@@ -61,6 +78,44 @@ npm init (iniciar um novo projeto JavaScript)
 
 json (JavaScript Object Notation)
 
+___________________________________________________
+Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante,
+ ele não pode ser alterado durante a execução do programa.
+
+Por que usar constantes?
+Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
+Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo e importante.
+Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam mudar,
+ facilitando a manutenção do código.
+
+Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e
+ modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode 
+ variar ao longo do tempo, conforme o programa roda.
+
+Por que usar variáveis?
+Para guardar informações que você vai precisar mais tarde.
+Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
+
+
+Nas linguagens de programação as variáveis são tipadas ou dinamicamente tipadas
+
+Existem 3 tipos de variáveis:
+
+String -> Armazena caracteres e números
+Number -> Armazena números inteiros e não inteiros
+Boolean -> True | false
+
+
+
+________________________________________________________________________
+
+Comandos JavaScript (Sintaxe)
+
+console.log() -> escrever no console
+console.clear() -> Limpar a tela do console
+const -> criar (declarar) uma constante
+let -> criar (declarar) uma variável
+typeof () -> verificar o tipo de variável
 
 
 
