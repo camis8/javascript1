@@ -63,11 +63,12 @@ fora do navegador (browser)
 https://nodejs.org/pt (baixar sempre a versão Lts)
 
 Comandos básicos:
-node -v 
+node -v (versão do node)
 
 Gerenciador de pacote para o node:
 npm está relacionado a pasta do projeto ou seja os pacotes
  são instalados na raiz do projeto e não no sistema operacional
+
 
 
 npm -v  (versão do npm)
@@ -75,6 +76,8 @@ npm ls (listar pacotes instalados)
 
 npm init (iniciar um novo projeto JavaScript)
 |___  cria um arquivo package.json
+npm i nome_do_pacote (INSTALAR UM NOVO PACOTE)
+npm r nome_do_pacote (remover um pacote)
 
 json (JavaScript Object Notation)
 

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/camis8/javascript1/issues"
   },
-  "homepage": "https://github.com/camis8/javascript1#readme"
+  "homepage": "https://github.com/camis8/javascript1#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "readline-sync": "^1.4.10"
+  }
 }
