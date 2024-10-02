@@ -11,7 +11,7 @@ let Altura
 let Vip
 
 console.clear()
-
+//ghp_fk1KQDez6k6VyuAE6nKN1.JhmynAEOL@q4hUI
 // entrada de dados
 nome = "Camila"
 idade = 56
