@@ -120,6 +120,21 @@ const -> criar (declarar) uma constante
 let -> criar (declarar) uma variável
 typeof () -> verificar o tipo de variável
 
+switch case (uso de variavel númerica (número inteiro))
+
+switch (variavel) {
+    case 1:
+    // código o valor da variavel seja 1
+    break
+    case 2:
+    // código caso o vlaor da variavel seja 2 
+    break
+    default:
+    // opcional, o código será executado se nenhum caso for definido
+    break
+}
+
+switcha case 
 
 
 
