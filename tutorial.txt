@@ -135,6 +135,22 @@ switch (variavel) {
 }
 
 switcha case 
+Estrutura de controle 
+- condicionais
+- 
+Estruturas de controle - Laços de repetições
 
+for (let i = 1 < 10; i++) {
 
+}
+
+// Laço com número de repetições definidas
+// let i = 1 (inicio)
+// i < 10 (condição)
+// i++ (incremento) i-- (decremento)
+
+Uso do laço for (obrigatório número inteiro)
+1) Percorrer uma estrutura de dados (Importante)
+2) Simplificar o código (Arduino na próxima aula) 
+3) Fazer cálculos levando em conta a variável interna do laço
 
