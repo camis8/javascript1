@@ -1,14 +1,14 @@
 /**
- * Exemplo de uso do metodo para gerar números aleatorios
+ * Exemplo de uso do metodo para gerar números aleatorios e uso da estrutura do While
  * Jogo do dado
  * @author Camila
  */
 
 const input = require(`readline-sync`)
 
-let face
-
-console.clear()
+let face, opcao
+do {
+    console.clear()
 
 console.log("jogo do dado")
 input.question("Pressione a tecla [Enter] para jogar o dado")
@@ -20,3 +20,7 @@ input.question("Pressione a tecla [Enter] para jogar o dado")
 
 face = Math.floor(Math.random() * 6 + 1) // 0 1 2 3 4 5
 console.log(`Face do dado: ${face}`)
+
+    opcao = input.question("Deseja jogar novamente(s/n)")
+} while (opcao === 's');
+

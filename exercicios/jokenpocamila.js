@@ -1,21 +1,20 @@
- /**
- * Jokenpo
- * @author Professor José de Assis
+/**
+ * @author Camila
+ * 
  */
 
 // biblioteca
-const input = require('readline-sync')
+const input = require(`readline-sync`)
+console.clear()
+console.log("jogo do jokenpo")
 
 // variáveis
 let jogador, computador, opcao
-do {
-    console.clear()
-console.log("_____JoKenPo_____")
+    console.log("jogador escolheu: Pedra, Papel ou Tesoura?")
 console.log("1. Pedra")
 console.log("2. Papel")
 console.log("3. Tesoura")
-
-// Lógica do jogador
+// lógica do computador
 jogador = Number(input.question("Digite a opcao desejada: "))
 console.log("")
 switch (jogador) {
@@ -34,7 +33,7 @@ switch (jogador) {
 }
 
 // Lógica do computador
-computador = Math.floor(Math.random() * 3 + 1)
+computador = Math.floor(Math.random() * 3 )
 
 switch (computador) {
     case 1:
@@ -56,8 +55,3 @@ if (jogador === computador) {
 } else {
     console.log("Computador VENCEU")
 }
-opcao === input.question("Deseja jogar novamente(s/n)")
-    
-} while (opcao === 's');
-
-
