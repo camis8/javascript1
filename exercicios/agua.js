@@ -9,7 +9,7 @@ const input = require ('readline-sync')
 let consumo, peso
 
 // limpar a tela antes de uma nov aentrada 
-console.clear()
+// console.clear()
 
 // entrada
 peso = Number(input.question("Digite o seu peso: (em kg )"))
