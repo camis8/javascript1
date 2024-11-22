@@ -42,8 +42,6 @@ class Aviao extends Carro {
 
 criarAviao() {
     const aviao1 = new Aviao ("Boeing 747", "Eletric GEnx 66.500Hp")
-    console.log("-_")
-    console.log("/")
     console.log(`Aviao de ${this.ano}`)
     console.log(`cor ${this.cor}`)
 }
@@ -68,4 +66,4 @@ const carro2 = new Carro ("Maverick 1970", "azul")
 carro2.criarCarro()
 
 const aviao1 = new Aviao("Boeing 747", "Eletric GEnx 66.500Hp")
-    aviao1.criarAviao()
+ aviao1.criarAviao()
