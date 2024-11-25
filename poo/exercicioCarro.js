@@ -34,16 +34,18 @@ class Carro {
 // Herança
 class Aviao extends Carro {
     constructor(ano, cor, motor) {
-        super(ano, cor) // herança
+        super(ano, cor)
         this.motor = motor
+    
 
 }
 
 
 criarAviao() {
-    const aviao1 = new Aviao ("Boeing 747", "Eletric GEnx 66.500Hp")
+    console.log("Você criou um avião com:")
     console.log(`Aviao de ${this.ano}`)
     console.log(`cor ${this.cor}`)
+    console.log(`Motor: ${this.motor}`)
 }
 voar() {
     console.log("._._._.")
@@ -51,7 +53,7 @@ voar() {
         console.log("O avião está voando")
     }
 }
-Aterrizar() {
+aterrizar() {
     console.log("o aviao está aterrizando")
 }
 }
@@ -61,9 +63,18 @@ Aterrizar() {
 // instalando 
 const carro1 = new Carro("Impala 1967", "preto")
 carro1.criarCarro()
+carro1.ligar()
+carro1.acelerar()
+carro1.desligar()
 
-const carro2 = new Carro ("Maverick 1970", "azul")
+const carro2 = new Carro("Maverick 1970", "azul")
 carro2.criarCarro()
+carro2.ligar()
+carro2.acelerar()
+carro2.desligar()
+
 
 const aviao1 = new Aviao("Boeing 747", "Eletric GEnx 66.500Hp")
  aviao1.criarAviao()
+ aviao1.voar()
+ aviao1.aterrizar()
