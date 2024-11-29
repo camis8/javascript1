@@ -7,7 +7,7 @@ console.clear()
 
 class Carro {
     constructor(ano, cor) {
-        this.ano = ano 
+        this.ano = ano
         this.cor = cor
     }
     criarCarro() {
@@ -21,14 +21,14 @@ class Carro {
         console.log("Ligar Carro: ")
         console.log(`Carro  ${this.ano} ligado`)
     }
-    acelerar () {
+    acelerar() {
         console.log(`Carro ${this.ano} acelerado`)
     }
 
     desligar() {
         console.log(`Carro ${this.ano} desligado`)
     }
-    
+
 
 }
 // Herança
@@ -36,26 +36,25 @@ class Aviao extends Carro {
     constructor(ano, cor, motor) {
         super(ano, cor)
         this.motor = motor
-    
-
-}
 
 
-criarAviao() {
-    console.log("Você criou um avião com:")
-    console.log(`Aviao de ${this.ano}`)
-    console.log(`cor ${this.cor}`)
-    console.log(`Motor: ${this.motor}`)
-}
-voar() {
-    console.log("._._._.")
-    if (this.voar === true) {
+    }
+
+
+    criarAviao() {
+        console.log("Você criou um avião com:")
+        console.log(`Aviao de ${this.ano}`)
+        console.log(`cor: ${this.cor}`)
+        console.log(`motor: ${this.motor}`)
+    }
+
+    //polimorfismo
+    acelerar() {
         console.log("O avião está voando")
     }
-}
-aterrizar() {
-    console.log("o aviao está aterrizando")
-}
+    aterrizar() {
+        console.log("o aviao está aterrizando")
+    }
 }
 
 
@@ -74,7 +73,7 @@ carro2.acelerar()
 carro2.desligar()
 
 
-const aviao1 = new Aviao("Boeing 747", "Eletric GEnx 66.500Hp")
- aviao1.criarAviao()
- aviao1.voar()
- aviao1.aterrizar()
+const aviao1 = new Aviao(1970, "azul", "Eletric GEnx 66.500Hp")
+aviao1.criarAviao()
+aviao1.acelerar()
+aviao1.aterrizar()
